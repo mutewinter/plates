@@ -1,0 +1,18 @@
+<div class="l--page-wrapper l--margin">
+  <div class="tx--center">
+    <h1 class="marketingy-heading l--space_half">
+      Sign in to see what's inside.
+    </h1>
+
+    <img src="/img/lidded-plate.svg" alt="Lidded plate" class="lidded-plate" />
+
+    <a href="#" class="btn btn_standard btn_inline" {{action signIn}}>
+      <img src="/img/icon-persona.svg" class="icon-persona" />
+      {{#if isSignedIn}}
+        Redirecting...
+      {{else}}
+        Sign in with Email
+      {{/if}}
+    </a>
+  </div>
+</div>

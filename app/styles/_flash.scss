@@ -1,0 +1,16 @@
+.flash-alert {
+  border: 2px solid $c-green;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+.flash-alert--text {
+  display: block;
+  float: left;
+  padding-top: 0.7em;
+}
+
+.flash-alert--action {
+  float: right;
+}

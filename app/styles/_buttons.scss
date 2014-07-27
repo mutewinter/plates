@@ -1,0 +1,100 @@
+%btn-shadow {
+  box-shadow: 0 5px $c-shadow;
+
+  &:hover,
+  &:focus {
+    top: -2px;
+    box-shadow: 0 8px transparentize($c-shadow, 0.05);
+  }
+
+  &:active {
+    top: 2px;
+    box-shadow: 0 4px opacify($c-shadow, 0.05);
+  }
+}
+
+.btn {
+  @include transition(all 0.2s);
+
+  font-size: 2em;
+  font-weight: $fw-light;
+
+  padding: 0.5em 1em;
+
+  // everything is full-width
+  // by default
+  display: block;
+  width: 100%;
+
+  text-align: center;
+
+  border-radius: $l-input-border-radius;
+
+  cursor: pointer;
+
+  // for little movements
+  position: relative;
+  top: 0;
+
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn_standard {
+  @extend %btn-shadow;
+  background-color: $c-blue;
+  border-color: $c-blue;
+  color: white;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: $c-blue;
+  }
+}
+
+.btn_alt {
+  @extend %btn-shadow;
+  background-color: $c-yellow;
+  border-color: $c-yellow;
+  color: white;
+
+  &:hover,
+  &:focus {
+    top: -2px;
+    background-color: transparent;
+    color: $c-yellow;
+  }
+}
+
+.btn_positive {
+  @extend %btn-shadow;
+  background-color: $c-green;
+  border-color: $c-green;
+  color: white;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: $c-green;
+  }
+}
+
+.btn_naked {
+  color: $c-blue;
+  border-color: transparent;
+
+  &:hover,
+  &:focus {
+    border-color: currentColor;
+  }
+}
+
+.btn_inline {
+  width: auto;
+  display: inline-block;
+}
+
+.btn_small {
+  font-size: 1em;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "provider_url": "http://media.giphy.com",
+    "description": null,
+    "embeds": [ ],
+    "safe": true,
+    "provider_display": "media.giphy.com",
+    "related": [ ],
+    "favicon_url": null,
+    "authors": [ ],
+    "images": [
+      {
+        "caption": null,
+        "url": "http://media.giphy.com/media/jCMq0p94fgBIk/giphy.gif",
+        "height": 375,
+        "width": 500,
+        "colors": [
+          { "color": [39, 44, 37], "weight": 0.736328125 },
+          { "color": [105, 107, 110], "weight": 0.225341796875 },
+          { "color": [225, 227, 227], "weight": 0.038330078125 }
+        ],
+        "entropy": 1.00686384497,
+        "size": 509708
+      }
+    ],
+    "cache_age": 86400,
+    "lead": null,
+    "language": null,
+    "original_url": "http://media.giphy.com/media/jCMq0p94fgBIk/giphy.gif",
+    "url": "http://media.giphy.com/media/jCMq0p94fgBIk/giphy.gif",
+    "media": {
+      "url": "http://media.giphy.com/media/jCMq0p94fgBIk/giphy.gif",
+      "width": 500,
+      "type": "photo",
+      "height": 375
+    },
+    "title": null,
+    "offset": null,
+    "content": null,
+    "entities": [ ],
+    "favicon_colors": null,
+    "keywords": [ ],
+    "published": null,
+    "provider_name": "Giphy",
+    "type": "image"
+  }
+]

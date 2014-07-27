@@ -1,0 +1,166 @@
+* {
+  @include box-sizing(border-box);
+}
+
+body {
+  color: $c-black;
+  background-color: $c-beige;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.l--page-wrapper {
+  // limits width to max page width & centers
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.l--margin {
+  // add this puppy for page margin
+  // at all sizes
+  width: 90%;
+  margin: 0 auto;
+}
+
+.l--space {
+  // Add a little bit of space,
+  // if you don't want to think up
+  // a class name.
+  margin-bottom: 3em;
+}
+
+.l--space_half {
+  margin-bottom: 1.5em;
+}
+
+.l--space_third {
+  margin-bottom: 1em;
+}
+
+.l--clear {
+  // clear any previous elements;
+  // force to its own line
+  width: 100%;
+  float: left;
+}
+
+.l--left {
+  float: left;
+}
+
+.l--right {
+  float: right;
+}
+
+.tx--link {
+  @include transition(all 0.2s);
+  color: $c-blue;
+  border-bottom: 1px solid;
+  
+  &:hover, &:focus {
+    color: darken($c-blue, 20%);
+  }
+}
+
+.l--media {
+  margin-right: 0.2em;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.l--media--neighbor {
+  margin-left: 2em;
+}
+
+.l--contain {
+  position: relative;
+}
+
+.tx--subtle {
+  color: $c-black-alpha;
+}
+
+.tx--little {
+  font-size: 0.8em;
+}
+
+.tx--right {
+  text-align: right;
+}
+
+.tx--center {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.js-expandable--toggle {
+}
+
+.lidded-plate {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto 2em;
+}
+
+.space-left {
+  margin-left: 0.5em;
+}
+
+.plate-title--image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.plate-title--text {
+  padding-top: 2%;
+  min-height: 2.5em;
+  color: $c-red;
+
+  font-size: 1.7em;
+  font-weight: $fw-light;
+
+  @media (min-width: 30em){
+    font-size: 2em;
+  }
+
+  padding-left: 12%;
+}
+
+.link-page--title-wrapper {
+  position: relative;
+}
+
+.link-page--favicon {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 16px;
+  height: 16px;
+}
+
+.link-page--title {
+  padding-left: 31px;
+}
+
+strong {
+  font-weight: $fw-bold;
+}

@@ -1,0 +1,11 @@
+.marketingy-heading {
+  color: $c-red;
+
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: $fw-light;
+
+  @media (min-width: 30em){
+    font-size: 2em;
+  }
+}

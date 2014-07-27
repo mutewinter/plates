@@ -1,0 +1,29 @@
+<div class="l--page-wrapper l--margin">
+
+  <div class="l--space_half l--clear">
+    <p class="marketingy-heading">
+      Create a new plate
+    </p>
+  </div>
+
+  <form>
+    <div class="l--space">
+      {{plate-and-name plate=plate isEditable=true}}
+    </div>
+
+    <div class="l--space">
+      {{multi-email emails=emails}}
+    </div>
+
+    <div class="l--space">
+      {{partial 'partials/share-link'}}
+    </div>
+
+    <div>
+      <a {{action createPlate}} href="#" class="btn btn_positive btn_inline">
+        Create Plate & Share
+      </a>
+    </div>
+  </form>
+
+</div>

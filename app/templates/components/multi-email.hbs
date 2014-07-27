@@ -1,0 +1,17 @@
+{{#each emailObjects}}
+  <label class="l--clear">
+    {{#if first}}
+      <span class="form-label">Who do you want to share with?</span>
+    {{/if}}
+    {{input value=value placeholder='yourfriend@email.com' class='text-input'}}
+    {{#unless first}}
+    <div class="l--clear l--space_half">
+      <a href="#" {{action removeEmail this}} class="btn btn_standard btn_small btn_inline l--right" href="#">Remove</a>
+    </div>
+    {{/unless}}
+  </label>
+{{/each}}
+<label class="add-control">
+  <a href="#" class="add-control--button" {{action addEmail}}>+</a>
+  Add another email
+</label>

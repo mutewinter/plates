@@ -1,0 +1,14 @@
+.link-detail {
+}
+
+.link-detail--media {
+  max-width: 100%;
+
+  > * {
+    max-width: 100%;
+  }
+}
+
+.link-detail--description {
+  font-size: 1.3em;
+}

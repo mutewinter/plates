@@ -1,0 +1,54 @@
+<div class="l--page-wrapper">
+
+  <ul>
+
+    <li>
+        <div class="plate-item">
+          <div class="l--margin">
+
+            {{#link-to 'templates.plate'}}
+              <div class="media_growing">
+                <div class="plate-image">
+                  {{partial 'templates/_plate-image'}}
+                </div>
+              </div>
+            {{/link-to}}
+
+            <div class="media_growing--neighbor">
+              {{#link-to 'templates.plate'}}
+                <div class="plate-item--title">
+                  Blueberry Plate
+                </div>
+              {{/link-to}}
+
+              <div class="plate-item--meta">
+                2h
+              </div>
+
+              <div class="js-expandable--toggle">
+                <div class="stat">
+                  <img class="media_small" src="/img/icon-user.svg" />
+                  <div class="media_small--neighbor">
+                    3
+                  </div>
+                </div>
+              </div>
+
+              <div class="js-expandable--target">
+                <div class="l--clear">
+                  <img class="media_small avatar" src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&f=y&s=40" />
+                  <div class="media_small--neighbor">
+                    ethanbmuller@gmail.com
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+    </li>
+
+  </ul>
+
+</div>

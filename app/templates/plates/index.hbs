@@ -1,0 +1,67 @@
+<div class="l--page-wrapper">
+
+  {{#link-to 'plates.new' class='btn btn_positive btn_small btn_inline'}}
+  New Plate
+  {{/link-to}}
+
+  <div class="l--space_half marketingy-heading">
+    <h1>{{length}} {{pluralize length s="Plate"}}</h1>
+  </div>
+
+  <ul>
+
+    {{#each}}
+      <li>
+          <div class="plate-item">
+
+
+            {{#link-to 'plate' this}}
+            <div class="media_growing">
+              {{plate-and-name plate=this isEditable=false showName=false}}
+            </div>
+            {{/link-to}}
+
+            <div class="media_growing--neighbor">
+              {{#link-to 'plate' this}}
+              <div class="plate-item--title">
+                {{ name }}
+              </div>
+              <div class="l--clear l--space_third tx--subtle">
+                <small>
+                  {{ links.length }} {{pluralize links.length s="link"}}
+                </small>
+              </div>
+              {{/link-to}}
+
+              <div class="js-expandable--toggle">
+                <div class="l--space_third l--clear">
+                  <img class="media_small" src="/img/icon-user.svg" />
+                  <div class="media_small--neighbor tx--subtle">
+                    {{ membersWithoutYou.length }} other {{pluralize membersWithoutYou.length s="person" p="people"}} can see this plate
+                  </div>
+                </div>
+              </div>
+
+              <div class="js-expandable--target">
+
+                <div class="l--clear">
+                  {{gravatar-image user=owner
+                                   class="media_small avatar"}}
+                  <div class="media_small--neighbor tx--subtle">
+                    {{ owner.email }} created this
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+      </li>
+    {{/each}}
+
+  </ul>
+
+</div>

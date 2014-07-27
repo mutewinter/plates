@@ -1,0 +1,27 @@
+{
+  "name": "plates",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mutewinter/plates",
+  "authors": [
+    "Ethan Muller @ethanmuller",
+    "Jeremy Mack @mutewinter",
+    "Ryann Pierce @ryannpierce"
+  ],
+  "description": "Share links with your friends on Plates.",
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~1.0.3",
+    "firebase-simple-login": "~1.2.5",
+    "JavaScript-MD5": "~1.1.0",
+    "chance": "~0.5.4",
+    "moment": "~2.5.1"
+  }
+}

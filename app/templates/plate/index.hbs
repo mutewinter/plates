@@ -1,0 +1,46 @@
+<div class="l--page-wrapper">
+
+  <div class="l--space_half">
+    {{#link-to 'plates' class='tx--link'}}
+    &larr; Back to all Plates
+    {{/link-to}}
+  </div>
+
+  <div class="l--contain l--space_half">
+    <div class="l--contain">
+      {{plate-and-name plate=this isEditable=false plateClass='smaller'}}
+    </div>
+  </div>
+
+  <div class="l--clear">
+    <div class="l--space_third l--clear">
+      <img class="media_small" src="/img/icon-user.svg" />
+      <div class="media_small--neighbor tx--subtle">
+        {{ membersWithoutYou.length }} other {{pluralize membersWithoutYou.length s="person" p="people"}} can see this plate:
+      </div>
+    </div>
+  </div>
+
+  {{#each membersWithoutYou}}
+    <div class="l--clear l--space_third">
+      {{gravatar-image user=this
+      class="media_small avatar"
+      size='40'}}
+      <div class="media_small--neighbor">
+        {{nameOrEmail}}
+      </div>
+    </div>
+  {{/each}}
+
+
+  <div class="l--space">
+    <label class="l--clear l--space_third">
+      <span class="form-label">Add a link:</span>
+      {{share-link link=newLink url=url}}
+    </label>
+
+    <button {{action shareNewLink}} class="btn btn_positive btn_small btn_inline">Share</button>
+  </div>
+
+  {{render 'links' links}}
+</div>

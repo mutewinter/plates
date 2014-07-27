@@ -1,0 +1,20 @@
+{{#with link}}
+<div class="link-item" {{bind-attr style=style}}>
+  <div class="">
+    <img class="media_favicon" {{bind-attr src=favicon.url}}>
+    <div class="media_favicon--neighbor">
+      <span class="tx--subtle">{{provider.domain}}</span>
+    </div>
+  </div>
+
+  <div class="link-item--title marginless">
+    {{title}}
+  </div>
+
+  <p class="tx--subtle">
+    {{description}}
+  </p>
+
+</div>
+
+{{/with}}

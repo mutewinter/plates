@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="450px" height="242px" viewBox="0 0 450 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Untitled</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <path id="path-1" d="M423.376335,197.8 C423.376335,88.5580711 328.60032,0 211.688167,0 C94.776015,0 0,88.5580711 0,197.8"></path>
+        <mask id="mask-2" sketch:name="Oval 2 copy" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path id="path-3" d="M-0.0225107158,-0.0818734276 C-0.0225107158,8.39932984 59.3224696,8.39932958 132.528221,8.39932958 C205.733972,8.39932958 265.078949,8.39932984 265.078953,-0.0818734276"></path>
+        <mask id="mask-4" sketch:name="base copy" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Serving-Plate" sketch:type="MSLayerGroup">
+            <path d="M1,229.5 C1,236.425327 101.271914,242.039413 224.963601,242.039413 C348.655289,242.039413 448.927203,236.425327 448.927203,229.5 L1,229.5 Z M1,229.5 C1,222.574673 101.271914,216.960587 224.963601,216.960587 C348.655289,216.960587 448.927203,222.574673 448.927203,229.5 L1,229.5 Z" id="the-shadow" fill-opacity="0.06" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <g id="Serving-1" sketch:type="MSShapeGroup">
+                <path d="M225.900801,21.4 C231.815505,21.4 236.61032,16.6094471 236.61032,10.7 C236.61032,4.79055288 231.815505,0 225.900801,0 C219.986096,0 215.191281,4.79055288 215.191281,10.7 C215.191281,16.6094471 219.986096,21.4 225.900801,21.4 Z" id="handle" fill="#CACAC7"></path>
+                <path d="M236.580839,11.5 C236.600377,11.2358847 236.61032,10.9691025 236.61032,10.7 C236.61032,4.79055288 231.815505,0 225.900801,0 C219.986096,0 215.191281,4.79055288 215.191281,10.7 C215.191281,10.9691025 215.201224,11.2358847 215.220763,11.5 C215.630293,5.9641857 220.255438,1.6 225.900801,1.6 C231.546163,1.6 236.171309,5.9641857 236.580839,11.5 Z" id="handle-light" fill-opacity="0.18" fill="#FFFFFF"></path>
+                <path d="M436.788256,213 C436.788256,103.758071 342.012241,15.2 225.100089,15.2 C108.187937,15.2 13.4119217,103.758071 13.4119217,213" id="Oval-2" fill="#CBCAC8"></path>
+                <g id="lid-shadow" transform="translate(13.411922, 15.200000)">
+                    <use id="Oval-2-copy" fill="#CBCAC8" xlink:href="#path-1"></use>
+                    <path d="M-12.61121,194.6 C-12.61121,201.469924 87.8395217,207.039098 211.751793,207.039098 C335.664063,207.039098 436.114795,201.469924 436.114795,194.6" id="base-copy" fill-opacity="0.06" fill="#000000" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M376.518607,74.9718333 C338.081751,38.2159695 284.442481,15.4 225.100089,15.4 C166.286819,15.4 113.075421,37.8109099 74.7133478,73.9919721 C114.554212,42.5366874 167.234984,23.4 225,23.4 C283.362412,23.4 336.534876,42.9345511 376.518607,74.9718333 Z" id="lid-hightlight" fill-opacity="0.19" fill="#FFFFFF"></path>
+                <g id="platebase-and-shadow" transform="translate(92.482206, 218.800000)">
+                    <use id="base-copy" fill="#64ACC3" transform="translate(132.395194, 4.418127) scale(1, -1) translate(-132.395194, -4.418127) " xlink:href="#path-3"></use>
+                    <path d="M-91.8618307,-4.02988281 C-91.8618307,2.7088933 8.58890094,8.17175009 132.501172,8.17175009 C256.413443,8.17175009 356.864174,2.7088933 356.864174,-4.02988281" id="base-copy" opacity="0.05" fill="#000000" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M0.800711744,213 C0.800711744,219.869924 101.251443,225.439098 225.163714,225.439098 C349.075985,225.439098 449.526717,219.869924 449.526717,213" id="base" fill="#6DB9D1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

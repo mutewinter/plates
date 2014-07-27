@@ -1,0 +1,111 @@
+$l-right-chunk-width:  4rem;
+
+.link-item {
+  @extend .clearfix;
+
+  position: relative;
+
+  min-height: 6em;
+
+  background: white;
+
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: darken($c-beige, 20%);
+
+  padding: 1em;
+
+  // to contain margin-text
+  position: relative;
+
+  &:last-child {
+    border-bottom-width: 1px;
+  }
+
+  &.yt {
+    border-left: 5px solid #A61A10;
+  }
+}
+
+.link-item--right-chunk {
+  position: absolute;
+  right: 1em;
+  top: 2em;
+
+  text-align: right;
+
+  width: $l-right-chunk-width;
+}
+
+.link-item--right-chunk--item {
+  margin-bottom: 0.3em;
+
+  font-size: 1em;
+  @media (min-width: 30em){
+    font-size: 1.4em;
+  }
+}
+
+.link-item--left {
+  width: 100%;
+  padding-right: 7em;
+}
+
+.link-item--right {
+  text-align: right;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  padding-top: 1em;
+  padding-right: 1em;
+
+  width: 7em;
+}
+
+.link-item--favicon {
+  vertical-align: middle;
+  margin-right: 0.3em;
+}
+
+.link-item--title {
+  font-size: 1.2em;
+
+  margin-bottom: 0.5em;
+  margin-left: 1.5rem;
+
+  @media (min-width: 30em){
+    font-size: 1.7em;
+  }
+  @media (min-width: 40em){
+    font-size: 2.2em;
+  }
+  @media (min-width: 50em){
+    font-size: 2.5em;
+  }
+
+  &.marginless {
+    margin: 0;
+  }
+}
+
+.link-item--margin-text {
+  font-size: 1em;
+  position: absolute;
+
+  &.bl {
+    bottom: 0.5em;
+    left: 1rem;
+  }
+
+  &.tr {
+    top: 0.5em;
+    right: 1rem;
+  }
+  
+  &.tl {
+    top: 0.5em;
+    left: 1rem;
+  }
+}

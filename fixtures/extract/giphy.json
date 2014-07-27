@@ -1,0 +1,62 @@
+[
+  {
+    "provider_url": "http://giphy.com",
+    "description": "Find the best Reaction animated GIFs on Giphy",
+    "embeds": [ ],
+    "safe": true,
+    "provider_display": "giphy.com",
+    "related": [ ],
+    "favicon_url": "http://giphy.com/static/img/favicon.png",
+    "authors": [ ],
+    "images": [
+      {
+        "caption": null,
+        "url": "http://media.giphy.com/media/jCMq0p94fgBIk/200_s.gif",
+        "height": 200,
+        "width": 267,
+        "colors": [
+          { "color": [46, 53, 48], "weight": 0.890380859375 },
+          { "color": [120, 119, 121], "weight": 0.077392578125 },
+          { "color": [224, 229, 228], "weight": 0.0322265625 }
+        ],
+        "entropy": 1.98673126542,
+        "size": 13588
+      }
+    ],
+    "cache_age": 86400,
+    "lead": null,
+    "language": "English",
+    "original_url": "http://giphy.com/gifs/jCMq0p94fgBIk",
+    "url": "http://giphy.com/gifs/jCMq0p94fgBIk",
+    "media": {
+      "width": 500,
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fgiphy.com%2Fembed%2FjCMq0p94fgBIk%2Ftwitter%2Fiframe&src_secure=1&url=http%3A%2F%2Fgiphy.com%2Fgifs%2FjCMq0p94fgBIk&image=http%3A%2F%2Fmedia.giphy.com%2Fmedia%2FjCMq0p94fgBIk%2F200_s.gif&key=eb0377c061324e29b75da075541b1d03&autoplay=1&type=text%2Fhtml&schema=giphy\" width=\"500\" height=\"375\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+      "type": "video",
+      "height": 375
+    },
+    "title": "Reaction Animated GIF - Giphy",
+    "offset": null,
+    "content": null,
+    "entities": [{ "count": 1, "name": "Google" }, { "count": 1, "name": "DMCA" }],
+    "favicon_colors": [
+      { "color": [31, 28, 40], "weight": 0.02587890625 },
+      { "color": [216, 236, 207], "weight": 0.023681640625 },
+      { "color": [187, 153, 172], "weight": 0.012939453125 }
+    ],
+    "keywords": [
+      { "score": 10, "name": "dmca" },
+      { "score": 10, "name": "giphy" },
+      { "score": 8, "name": "favorites" },
+      { "score": 7, "name": "gifs" },
+      { "score": 7, "name": "api" },
+      { "score": 6, "name": "metaphorical" },
+      { "score": 6, "name": "signed" },
+      { "score": 5, "name": "google" },
+      { "score": 5, "name": "privacy" },
+      { "score": 5, "name": "inquiries" }
+    ],
+    "published": null,
+    "provider_name": "Giphy",
+    "type": "html"
+  }
+]

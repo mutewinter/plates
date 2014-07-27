@@ -1,0 +1,93 @@
+[
+  {
+    "provider_url": "http://soundcloud.com",
+    "description": "Futuristic Polar Bears - Back To Earth OUT NOW! http://bit.ly/BackToEarthBP From the North of England to the forefront of global dance music, Futuristic Polar Bears are the next force to join Revealed Recordings and their new talent overhaul for 2014 with \"Back To Earth.\"",
+    "embeds": [ ],
+    "safe": true,
+    "provider_display": "soundcloud.com",
+    "related": [ ],
+    "favicon_url": "http://a1.sndcdn.com/favicon.ico?f775e59",
+    "authors": [{ "url": "http://soundcloud.com/revealed-recordings", "name": "Revealed Recordings" }],
+    "images": [
+      {
+        "caption": null,
+        "url": "http://i1.sndcdn.com/artworks-000068857023-b8znis-t500x500.jpg?f775e59",
+        "height": 500,
+        "width": 500,
+        "colors": [
+          { "color": [11, 15, 16], "weight": 0.44921875 },
+          { "color": [54, 57, 57], "weight": 0.203125 },
+          { "color": [0, 199, 236], "weight": 0.16455078125 },
+          { "color": [113, 119, 119], "weight": 0.08154296875 },
+          { "color": [0, 164, 206], "weight": 0.039306640625 }
+        ],
+        "entropy": 4.35506116149,
+        "size": 87057
+      },
+      {
+        "caption": null,
+        "url": "http://i1.sndcdn.com/artworks-000068857023-b8znis-crop.jpg?f775e59",
+        "height": 400,
+        "width": 400,
+        "colors": [
+          { "color": [12, 16, 17], "weight": 0.46533203125 },
+          { "color": [55, 58, 59], "weight": 0.189208984375 },
+          { "color": [0, 197, 234], "weight": 0.182373046875 },
+          { "color": [107, 115, 118], "weight": 0.062744140625 },
+          { "color": [120, 152, 164], "weight": 0.058837890625 }
+        ],
+        "entropy": 4.40765894236073,
+        "size": 62539
+      },
+      {
+        "url": "http://i1.sndcdn.com/avatars-000002273578-dsfv6j-badge.jpg?f775e59",
+        "width": 47,
+        "size": 1226,
+        "caption": null,
+        "height": 47
+      }
+    ],
+    "cache_age": 84819,
+    "lead": null,
+    "language": "English",
+    "original_url": "https://soundcloud.com/revealed-recordings/futuristic-polar-bears-back-to-earth-download",
+    "url": "http://soundcloud.com/revealed-recordings/futuristic-polar-bears-back-to-earth-download",
+    "media": {
+      "width": 500,
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fw.soundcloud.com%2Fplayer%2F%3Fvisual%3Dtrue%26autoplay%3D1%26url%3Dhttp%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F131123352%26show_artwork%3Dtrue&url=http%3A%2F%2Fsoundcloud.com%2Frevealed-recordings%2Ffuturistic-polar-bears-back-to-earth-download&image=http%3A%2F%2Fi1.sndcdn.com%2Fartworks-000068857023-b8znis-t500x500.jpg%3Ff775e59&key=eb0377c061324e29b75da075541b1d03&schema=soundcloud&type=text%2Fhtml&autoplay=1\" width=\"500\" height=\"500\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+      "type": "rich",
+      "height": 500
+    },
+    "title": "Futuristic Polar Bears - Back To Earth by Revealed Recordings",
+    "offset": null,
+    "content": null,
+    "entities": [
+      { "count": 3, "name": "Earth" },
+      { "count": 2, "name": "Hardwell" },
+      { "count": 1, "name": "Air radio" },
+      { "count": 1, "name": "TW" },
+      { "count": 1, "name": "SoundCloud Ltd." },
+      { "count": 1, "name": "England" }
+    ],
+    "favicon_colors": [
+      { "color": [247, 103, 24], "weight": 0.05078125 },
+      { "color": [245, 191, 168], "weight": 0.00634765625 },
+      { "color": [249, 249, 249], "weight": 0.00537109375 }
+    ],
+    "keywords": [
+      { "score": 30, "name": "hardwell" },
+      { "score": 30, "name": "soundcloud" },
+      { "score": 26, "name": "http" },
+      { "score": 20, "name": "revealedrecordings" },
+      { "score": 20, "name": "futuristicpolarbears" },
+      { "score": 20, "name": "beatport" },
+      { "score": 16, "name": "earth" },
+      { "score": 15, "name": "https" },
+      { "score": 14, "name": "futuristic" },
+      { "score": 11, "name": "log" }
+    ],
+    "published": null,
+    "provider_name": "SoundCloud",
+    "type": "html"
+  }
+]

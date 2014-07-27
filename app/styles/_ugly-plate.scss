@@ -1,0 +1,26 @@
+.ugly-plate {
+  width: 80px;
+  height: 80px;
+
+  margin-left: 20px;
+
+  border-radius: 80px;
+
+  text-align: center;
+
+  background: red;
+
+  &:after {
+    width: 50px;
+    height: 50px;
+
+    top: 15px;
+    left: 15px;
+
+    display: block;
+    content: " ";
+    background: yellow;
+    border-radius: 30px;
+    position: relative;
+  }
+}

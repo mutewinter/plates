@@ -1,0 +1,18 @@
+{{#each}}
+  <div {{bind-attr class=":l--space_half :l--clear :l--contain isMe:tx--right"}}>
+    {{gravatar-image user=user
+                     classNameBindings=":fixed-media :avatar isMe:flip"}}
+
+   <div {{bind-attr class=":fixed-media-neighbor isMe:flip"}}>
+     <div class="tx--subtle tx--little">{{user.nameOrEmail}}
+       <p>
+       <img {{bind-attr class=":media_small isMe:flip"}} src="/img/icon-time.svg" />
+       <span {{bind-attr class=":media_small--neighbor isMe:flip"}}>
+         {{createdAtRelative}}
+       </span>
+      </p>
+      </div>
+      <p class="l--clear">{{text}}</p>
+    </div>
+  </div>
+{{/each}}

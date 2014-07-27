@@ -1,0 +1,17 @@
+{{#if session.user.hasNoName}}
+<div class="l--page-wrapper l--margin">
+  <div class="flash-alert clearfix">
+    <form>
+    <span class="flash-alert--text">
+      <strong>Update your name</strong>
+    </span>
+    {{input value=newName class='inline-input text-input' placeholder="Paula Deen"}}
+    <button href="#" class="btn btn_positive btn_inline btn_small flash-alert--action" {{action updateName}}>
+      Add Your Name
+    </button>
+    </form>
+  </div>
+</div>
+{{/if}}
+
+{{outlet}}

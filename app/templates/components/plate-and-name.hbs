@@ -1,0 +1,9 @@
+<div {{bind-attr class="showName:plate-hero :plate-image plateClass"}} >
+  {{partial 'templates/_plate-image'}}
+</div>
+
+{{#if showName}}
+  <div class="plate-hero--title">
+    {{plate.name}}
+  </div>
+{{/if}}

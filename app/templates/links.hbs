@@ -1,0 +1,52 @@
+<ul class="link-item-list l--clear">
+  {{#each}}
+    <li class="link-item" {{bind-attr style=style}}>
+      {{#link-to 'link' this}}
+      <div class="link-item--left">
+        <div class="">
+          <img class="media_favicon" {{bind-attr src=favicon.url}}>
+          <div class="media_favicon--neighbor">
+            <span class="tx--subtle">{{provider.domain}}</span>
+          </div>
+        </div>
+
+        <h2 class="link-item--title">{{title}}</h2>
+
+        <div class="l--clear">
+          {{gravatar-image user=user
+                           class="media_small avatar"
+                           size='40'}}
+          <div class="media_small--neighbor">
+            {{user.nameOrEmail}}
+          </div>
+        </div>
+      </div>
+      <div class="link-item--right">
+
+        <div class="stat">
+          <img class="media_small flip" src="/img/icon-time.svg" />
+          <div class="media_small--neighbor flip">
+            {{createdAtRelative}}
+          </div>
+        </div>
+
+        <div class="stat">
+          <img class="media_small flip" src="/img/icon-comment.svg" />
+          <div class="media_small--neighbor flip">
+            {{comments.length}}
+          </div>
+        </div>
+
+        <div class="stat">
+          <img class="media_small flip" src="/img/icon-viewed.svg" />
+          <div class="media_small--neighbor flip">
+            {{readStatuses.length}}
+          </div>
+        </div>
+
+      </div>
+
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>

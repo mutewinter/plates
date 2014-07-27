@@ -1,0 +1,114 @@
+<div class="l--page-wrapper l--margin">
+
+  <div class="l--space_half clearfix">
+    <div class="l--left">
+      {{#link-to 'plate' class='tx--link'}}
+      &larr; Back to Plate
+      {{/link-to}}
+    </div>
+  </div>
+
+</div>
+
+<article>
+
+  <div class="l--page-wrapper l--margin l--space">
+    <div class="l--space_half l--clear">
+
+      <a {{bind-attr href=url}} target="_blank">
+        <h1 class="heading">
+          <div class="link-page--title-wrapper">
+            <img class="link-page--favicon" {{bind-attr src=favicon.url}} />
+            <div class="link-page--title">
+              {{title}}
+            </div>
+          </div>
+        </h1>
+
+        <!--Original link-->
+        <div class="l--media--neighbor">
+          <span class="tx--link">
+            View Original
+          </span>
+        </div>
+      </a>
+
+    </div>
+
+
+    {{!--embedly media.html--}}
+    <div class="link-detail--media l--space_half">
+      {{#if media.html}}
+        {{{media.html}}}
+      {{else}}
+        {{#if image.url}}
+          <img {{bind-attr src=image.url alt=title}}>
+        {{/if}}
+      {{/if}}
+    </div>
+
+    <!--Description-->
+    <div class="l--clear l--space_half link-detail--description">
+      {{description}}
+    </div>
+
+    <div class="l--space_half l--clear">
+
+      <!--Shared by-->
+      <div class="l--left">
+        {{gravatar-image user=user class="media_medium avatar"}}
+        <div class="media_medium--neighbor">
+          Shared by {{user.nameOrEmail}} <small class="tx--subtle">{{createdAtRelative}} ago</small>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Viewed status-->
+    <div class="l--space_half l--clear">
+
+      <div class="l--space_third l--clear">
+        <img class="media_small" src="/img/icon-viewed.svg" />
+        <div class="media_small--neighbor tx--subtle">
+          {{ readStatuses.length }} {{pluralize readStatuses.length s="person has" p="people have"}} seen this
+        </div>
+      </div>
+
+      {{#each readStatuses}}
+        <div class="l--clear l--space_third tx--subtle">
+          {{gravatar-image user=user
+          class="media_small avatar"
+          size='40'}}
+          <div class="media_small--neighbor">
+            {{user.nameOrEmail}}
+          </div>
+        </div>
+      {{/each}}
+
+    </div>
+
+  </div>
+
+  <!-- Comments -->
+
+  <div class="l--space l--clear">
+    <div class="l--page-wrapper l--margin">
+      {{render 'comments' commentsWithUser}}
+    </div>
+  </div>
+
+  <form class="l--space l--page-wrapper l--margin">
+    <label class="l--space">
+      <span class="form-label little">Have something clever to say?</span>
+      {{input class="text-input" value=comment.text
+                                 placeholder=comment.placeholder}}
+    </label>
+
+    <button {{action addComment}}
+      class="l--right l--space btn btn_standard btn_inline btn_small">
+      Comment
+    </button>
+
+  </form>
+
+</article>

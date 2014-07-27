@@ -1,0 +1,109 @@
+// inputs and such go in here.
+// HEADS UP: buttons have their own file
+
+.form-label {
+  display: block;
+
+  cursor: pointer;
+
+  font-size: 1em;
+  margin-bottom: 0.5em;
+
+  @media (min-width: 38em){
+    font-size: 1.5em;
+  }
+
+  &.little {
+    font-size: 1em;
+  }
+}
+
+.text-input {
+  @include transition(all 0.2s);
+
+  outline: none;
+
+  font-size: 1.5em;
+
+  display: block;
+  width: 100%;
+
+  background-color: transparent;
+
+  border: 2px solid;
+  padding: 0.5em;
+
+  border-radius: $l-input-border-radius;
+
+  box-shadow: inset 0 0 transparent;
+
+  margin-bottom: 0.5em;
+
+  &:focus {
+    color: $c-black;
+    border-color: $c-active;
+    background-color: white;
+
+    box-shadow: inset 0 5px $c-shadow;
+  }
+
+  &.plate-input {
+    font-weight: $fw-bold;
+    text-align: center;
+    border-color: transparent;
+    &:hover, &:focus {
+      border-color: currentColor;
+    }
+  }
+}
+
+.icon-persona {
+  width: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  position: relative;
+  top: -0.1em;
+}
+
+.add-control {
+  font-size: 1.5em;
+}
+
+.add-control--button {
+  @include transition(all 0.2s);
+
+  border: 2px solid $c-blue;
+  background: transparent;
+  color: $c-blue;
+
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.4;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  border-radius: 50%;
+
+  outline: none;
+
+  margin-right: 0.3em;
+
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    background: white;
+    border-radius: 4px;
+  }
+}
+
+.inline-input {
+  color: #85BCB1;
+  font-size: 1em;
+  width: 24em;
+  float: left;
+  margin-top: 0.2em;
+  clear: both;
+}

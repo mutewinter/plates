@@ -1,0 +1,23 @@
+<div class="l--page-wrapper">
+  <header class="main-header">
+
+  <div class="l--left">
+    {{#link-to homeRouteName}}
+      <img class="main-header--logo" src="/img/plates-logo.svg" alt="Plates" />
+    {{/link-to}}
+  </div>
+
+  <div class="l--right">
+    {{#if session.isSignedIn}}
+      {{session.user.nameOrEmail}}
+      <a {{action signOut}} class="tx--link space-left" href="#">Sign Out</a>
+    {{else}}
+      <a {{action signIn 'plates'}} class="tx--link space-left" href="#">
+        Sign In
+      </a>
+    {{/if}}
+  </div>
+
+
+  </header>
+</div>

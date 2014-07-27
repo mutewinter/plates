@@ -1,0 +1,9 @@
+{{input value=url placeholder='A URL to share' class='text-input'}}
+
+{{#if link.metadata.isPending}}
+  Loading...
+{{else}}
+  {{#if link.readyToShare}}
+    {{link-preview link=link}}
+  {{/if}}
+{{/if}}

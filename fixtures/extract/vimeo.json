@@ -1,0 +1,76 @@
+[
+  {
+    "provider_url": "https://vimeo.com/",
+    "description": "Find me on Facebook: https://www.facebook.com/Yogirlnairi",
+    "embeds": [ ],
+    "safe": true,
+    "provider_display": "vimeo.com",
+    "related": [ ],
+    "favicon_url": "http://a.vimeocdn.com/images_v6/favicon_32.ico",
+    "authors": [{ "url": "http://vimeo.com/yogirlnairi", "name": "Nairi" }],
+    "images": [
+      {
+        "caption": null,
+        "url": "http://b.vimeocdn.com/ts/432/560/432560237_640.jpg",
+        "height": 360,
+        "width": 640,
+        "colors": [
+          { "color": [2, 5, 37], "weight": 0.382568359375 },
+          { "color": [57, 57, 84], "weight": 0.219970703125 },
+          { "color": [167, 171, 174], "weight": 0.216796875 },
+          { "color": [111, 106, 113], "weight": 0.1806640625 }
+        ],
+        "entropy": 5.228276101,
+        "size": 28003
+      },
+      {
+        "caption": null,
+        "url": "http://b.vimeocdn.com/ps/550/360/5503605_75.jpg",
+        "height": 75,
+        "width": 75,
+        "colors": [
+          { "color": [249, 157, 87], "weight": 0.503662109375 },
+          { "color": [248, 94, 146], "weight": 0.496337890625 }
+        ],
+        "entropy": 4.096470405954191,
+        "size": 4073
+      }
+    ],
+    "cache_age": 86400,
+    "lead": null,
+    "language": "English",
+    "original_url": "http://vimeo.com/62617879",
+    "url": "http://vimeo.com/62617879",
+    "media": {
+      "duration": 250,
+      "width": 600,
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F62617879%3Fautoplay%3D1&url=http%3A%2F%2Fvimeo.com%2F62617879&image=http%3A%2F%2Fb.vimeocdn.com%2Fts%2F432%2F560%2F432560237_640.jpg&key=eb0377c061324e29b75da075541b1d03&schema=vimeo&type=text%2Fhtml&autoplay=1\" width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+      "type": "video",
+      "height": 338
+    },
+    "title": "Jeremih - Fuck U All The Time (Shlohmo Remix) music video",
+    "offset": null,
+    "content": null,
+    "entities": [ ],
+    "favicon_colors": [
+      { "color": [0, 183, 234], "weight": 0.187744140625 },
+      { "color": [242, 250, 252], "weight": 0.0615234375 },
+      { "color": [0, 0, 0], "weight": 0.000732421875 }
+    ],
+    "keywords": [
+      { "score": 18, "name": "vimeo" },
+      { "score": 10, "name": "licensed" },
+      { "score": 8, "name": "hmm" },
+      { "score": 7, "name": "videos" },
+      { "score": 7, "name": "browse" },
+      { "score": 7, "name": "learn" },
+      { "score": 7, "name": "catalog" },
+      { "score": 6, "name": "sophisticated" },
+      { "score": 5, "name": "filmmaking" },
+      { "score": 5, "name": "creative" }
+    ],
+    "published": null,
+    "provider_name": "Vimeo",
+    "type": "html"
+  }
+]

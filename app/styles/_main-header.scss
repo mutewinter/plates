@@ -1,0 +1,14 @@
+.main-header {
+  @extend .clearfix;
+
+  margin-bottom: 1.5em;
+  padding: 1em 5% 1.5em;
+  border-bottom: 1px solid #D5D4D0;
+
+  @media (min-width: 50em){
+    padding: 1em 0 1.5em;
+  }
+}
+
+.main-header--logo {
+}

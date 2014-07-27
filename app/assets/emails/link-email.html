@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>*|TITLE|*</title>
+<style>
+/* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+* { 
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
+	font-size: 100%;
+	line-height: 1.6;
+}
+
+.media { 
+	max-width: 100%; 
+        margin-bottom: 20px;
+}
+
+body {
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	width: 100%!important; 
+	height: 100%;
+  color: #525252;
+  background-color: #FAF9F4;
+}
+
+
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+a { 
+        color: #6DB9D1;
+}
+
+.logo {
+        margin-bottom: 24px;
+}
+
+.btn-primary, .btn-secondary {
+	text-decoration:none;
+	color: #FFF;
+	background-color: #6DB9D1;
+        padding: 8px 16px;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.btn-primary{
+}
+
+.btn-secondary{
+        background-color: #B1B0AB;
+}
+
+.last { 
+	margin-bottom: 0;
+}
+
+.first{
+	margin-top: 0;
+}
+
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+table.body-wrap { 
+	width: 100%;
+	padding: 20px;
+}
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+table.footer-wrap { 
+	width: 100%;	
+	clear:both!important;
+}
+
+table[class="footer-wrap"] td[class="container"] p {
+	font-size:12px;
+	color:#666;
+	
+}
+
+table[class="footer-wrap"] a{
+	color: #999;
+}
+
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+div[class="heading-main"], div[class="heading-secondary"]{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px;
+	margin: 0 0 10px;
+	line-height: 1.2;
+	font-weight:200; 
+}
+
+div[class="heading-main"] {
+	font-size: 24px;
+        color: #E2927F;
+}
+div[class="heading-secondary"] {
+	font-size: 24px;
+        margin-top: 20px;
+        font-weight: 500;
+}
+
+div[class="p"] { 
+	margin-bottom: 10px; 
+	font-weight: normal; 
+	font-size: 16px;
+}
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+td[class="container"] {
+	display:block!important;
+	max-width:600px!important;
+	margin:0 auto!important; /* makes it centered */
+	clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+	padding:20px;
+	max-width:600px;
+	margin:0 auto;
+	display:block; 
+  background-color: #FAF9F4;
+}
+
+a[class="unlink"] {
+        text-decoration: none;
+        color: #525252;
+}
+
+div[class="boilerplate"] {
+        margin-top: 40px;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { 
+	width: 100%; 
+}
+
+</style>
+</head>
+ 
+<body bgcolor="#FAF9F4">
+
+<!-- body -->
+<table class="body-wrap" bgcolor="#FAF9F4">
+  <tr>
+    <td></td>
+    <td class="container">
+
+      <!-- content -->
+      <div class="content">
+        <table>
+          <tr>
+            <td>
+              <div class="logo">
+                <img src="http://plates.io/img/plates-logo-email.jpg" alt="Plates" width="170" height="49" />
+              </div>
+              <div class="heading-main">Your friend sent you a link on Plates.</div>
+              <div class="p"><b>*|NAME|*</b> thought you might want to see this.</div>
+              <div class="heading-secondary"><a class="unlink" href="#link-on-plates">*|TITLE|*</a></div>
+              <a href="*|URL|*"><img class="media" src="*|IMAGEURL|*" alt="*|SUBJECT|*"/></a>
+              <div class="p"><a href="*|URL|*" class="btn-primary">View on Plates</a></div>
+              <div class="p"><a href="*|ORIGINALURL|*">View on *|DOMAIN|*</a></div>
+
+              <div class="boilerplate">Never heard of Plates? It's a nice and easy way to share links with your friends.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- /content -->
+
+    </td>
+    <td></td>
+  </tr>
+</table>
+<!-- /body -->
+
+<!-- footer -->
+<table class="footer-wrap" bgcolor="#FAF9F4">
+  <tr>
+    <td></td>
+    <td class="container">
+
+      <!-- content -->
+      <div class="content">
+        <table>
+          <tr>
+            <td align="center">
+              <p>Want to stop receiving these emails? <a href="#">Unsubscribe</a>.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div><!-- /content -->
+
+    </td>
+    <td></td>
+  </tr>
+</table>
+<!-- /footer -->
+
+</body>
+</html>

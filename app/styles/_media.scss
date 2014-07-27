@@ -1,0 +1,93 @@
+$l-media-size: 2.5em;
+
+.fixed-media {
+  position: absolute;
+  width: $l-media-size;
+
+  &.flip {
+    // requires parent to have .l--contain
+    right: 0;
+  }
+}
+
+.fixed-media-neighbor {
+  padding-left: $l-media-size + 0.5em;
+  &.flip {
+    padding-left: 0;
+    padding-right: $l-media-size + 0.5em;
+  }
+}
+
+.media_growing {
+  width: 20%;
+  float: left;
+
+  margin-right: 5%;
+}
+
+.media_growing--neighbor {
+  width: 75%;
+  float: right;
+}
+
+.media_small {
+  // used for icons
+  float: left;
+  clear: both;
+  width: 1.2em;
+  margin-right: 0.5em;
+
+  line-height: 1.2;
+
+  &.flip {
+    float: right;
+    margin-right: 0;
+    margin-left: 0.5em;
+  }
+}
+
+.media_small--neighbor {
+  line-height: 1;
+  float: left;
+
+  &.flip {
+    float: right;
+  }
+}
+
+.media_medium {
+  // used for, uh, slightly larger icons
+  float: left;
+  clear: both;
+  width: 2.5em;
+  margin-right: 0.5em;
+
+  line-height: 1.2;
+
+  &.flip {
+    float: right;
+    margin-right: 0;
+    margin-left: 0.5em;
+  }
+}
+
+.media_medium--neighbor {
+  line-height: 1;
+  float: left;
+  padding-top: 0.7em;
+
+  &.flip {
+    float: right;
+  }
+}
+
+.media_favicon {
+  // used for favicons specifically
+  float: left;
+  width: 1rem;
+  margin-right: 0.5em;
+}
+
+.media_favicon--neighbor {
+  line-height: 1;
+}

@@ -1,0 +1,55 @@
+<div class="l--page-wrapper l--margin">
+
+  {{#if readyToShare}}
+    <div class="flash-alert clearfix">
+      <span class="flash-alert--text">
+        <strong>Logged in successfully!</strong>
+      </span>
+      <a href="#" class="btn btn_positive btn_inline btn_small flash-alert--action" {{action signInOrSend}}>
+        Create Plate & Share
+      </a>
+    </div>
+  {{/if}}
+
+  <div class="l--space_half l--clear">
+    <p class="marketingy-heading">
+    Share links with your friends on Plates.
+    </p>
+  </div>
+
+  <form>
+    <div class="l--space">
+      {{plate-and-name plate=plate isEditable=true}}
+    </div>
+
+    <div class="l--space">
+      {{partial 'partials/share-link'}}
+    </div>
+
+    <div class="l--space">
+      {{multi-email emails=emails}}
+    </div>
+
+    <div class="l--space">
+
+      {{#if isSignedIn}}
+        <a href="#" class="btn btn_positive btn_inline" {{action signInOrSend}}>
+          Create Plate & Share
+        </a>
+
+      {{else}}
+        <a href="#" class="btn btn_standard btn_inline" {{action signInOrSend}}>
+          <img src="/img/icon-persona.svg" class="icon-persona" />
+          Sign In with Email
+        </a>
+
+        <div>
+          <small>No password required</small>
+        </div>
+      {{/if}}
+
+    </div>
+
+  </form>
+
+</div>
