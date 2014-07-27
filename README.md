@@ -11,9 +11,9 @@ and [Ryann Pierce](https://twitter.com/ryannpierce).
 Description
 -----------
 
-![Plates teaser image](http://i.imgur.com/LyeGrF8.png)
-
 Share links with your friends on Plates.
+
+![Plates teaser image](http://i.imgur.com/LyeGrF8.png)
 
 - Email from a client-side only app? Thanks Zapier and Mandrill.
 - Authentication and authorization? Thanks Firebase.
@@ -23,7 +23,7 @@ Share links with your friends on Plates.
 - Responsive at any size? Thanks Ethan.
 - Beautiful? Thanks Ryann.
 
-**Things not to miss**
+### Things not to miss
 
 - The beautiful email sent by Plates to all of your friends for every link
   shared on a plate. Your friends can even reply to the email and it'll show up
