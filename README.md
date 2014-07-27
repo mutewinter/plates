@@ -11,6 +11,8 @@ and [Ryann Pierce](https://twitter.com/ryannpierce).
 Description
 -----------
 
+![Plates teaser image](http://i.imgur.com/LyeGrF8.png)
+
 Share links with your friends on Plates.
 
 - Email from a client-side only app? Thanks Zapier and Mandrill.
